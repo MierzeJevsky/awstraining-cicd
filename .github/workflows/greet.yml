@@ -21,4 +21,4 @@ jobs:
           name: ${{ matrix.people }}
       - name: Display name lenght
         run:  |
-          echo "Lenght is: ${{ steps.custom_action.outputs.name_lenght }}
+          echo "Lenght is: ${{ steps.custom_action.output.name_lenght }}
