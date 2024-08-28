@@ -6,7 +6,7 @@ on:
 
 jobs:
   greet_everyone:
-    runs-on: ubuntu-leatest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         people :
