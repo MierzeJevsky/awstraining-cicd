@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Call custon action
         id: custom_action
-        uses: MierzeJevsky/hello-world-action@v3.2
+        uses: MierzeJevsky/hello-world-action@v3.3
         with:
           name: ${{ matrix.people }}
       - name: Display name lenght
